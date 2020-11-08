@@ -139,13 +139,13 @@ nav {
 }
 
 .fa-angle-double-down {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 20px;
   font-size: 60px;
 }
 
 .fa-angle-double-up {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 20px;
   font-size: 60px;
 }
@@ -154,13 +154,13 @@ nav {
 #aboutme {
   display: inline-block;
   justify-content: left;
-  padding-top: 0px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 #aboutme h1 {
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-left: 150px;
   color:  #385668fa;
 }
@@ -283,13 +283,13 @@ nav {
 #work {
   display: inline-block;
   justify-content: left;
-  padding-top: 0px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 #work h1 {
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   margin-left: 150px;
   color:  #385668fa;
 }
@@ -356,7 +356,7 @@ nav {
 }
 
 #tech-x_card2019 {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 /* Front of the card */
@@ -422,13 +422,13 @@ nav {
 #testimonials {
   display: inline-block;
   justify-content: left;
-  padding-top: 0px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 #testimonials h1 {
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   margin-left: 150px;
   color:  #385668fa;
 }
