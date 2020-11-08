@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jason Lin</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="fontawesome-free-5.15.1-web\fontawesome-free-5.15.1-web\css\fontawesome.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.1-web\fontawesome-free-5.15.1-web\css\brands.css" rel="stylesheet">
+    <link href="fontawesome-free-5.15.1-web\fontawesome-free-5.15.1-web\css\solid.css" rel="stylesheet">
+    <link href="favicon.png" rel="icon">
+  </head>
+  <body>
+    <header>
+      <h1 id="branding">
+        <a href="index.html">Jason Lin</a>
+      </h1>
+      <nav>
+        <ul class="navbar">
+          <li id="navitems"><a href="#aboutmearrow">ABOUT</a></li>
+          <li id="navitems"><a href="#workarrow">WORK</a></li>
+          <li id="navitems"><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="front" class="block">
+      <div id="intro">
+        <img id="profilepic" src="profile.jpg" alt="Jason Lin in Law Quad">
+        <h1>Hi! I am Jason Lin.</h1>
+        <h1>Learn more about me!</h1>
+        <h1><a href="#aboutmearrow" id="aboutmearrow"><i class="fas fa-angle-double-down"></i></a></h1>
+      </div>
+    </div>
+    <div id="aboutme" class="block">
+      <h1>About Me</h1>
+      <h2>
+        Hello! I am Jason, a current sophomore at the <b>University of Michigan &mdash; Ann Arbor</b>.
+        Originally born in Taiwan, I moved to <b>Boulder, Colorado</b> when I was eight years old.
+      </h2>
+      <h2>
+        At UofM, I am studying <b>chemical engineering with a minor in computer science</b>.
+        I seek to pursue a career related to biotechnology, specifically working with novel therapuetics 
+        and computational biology.
+      </h2>
+      <h2 id="agenda">
+        Here's what I am up to:
+        <ul>
+          <i class="fas fa-university"></i>Studying <b><a href="https://che.engin.umich.edu">ChemE</a> 
+            @ <a href="https://umich.edu">University of Michigan</a></b><br>
+          <i class="fas fa-car"></i>Designing parts on <b><a href="https://solarcar.engin.umich.edu">UMich Solar 
+            Car Team &mdash; Aerodynamics Division</a></b><br>
+          <i class="fas fa-briefcase"></i>Working part-time <b>@ <a href="https://txcorp.com">Tech-X Corporation</a></b><br>
+          <i class="fas fa-music"></i>Learning the <b>piano</b><br>
+          <i class="fas fa-book"></i>Reading <b>Where The Crawdads Sing by Delia Owens</b><br>
+        </ul>
+      </h2>
+      <h2>Check out some other stuff!</h2>
+      <div id="otherlinks">
+        <h3><a href="Lin_Jason_Resume.pdf">Resume</a></h3>
+        <h3><a href="library.html">Bookshelf</a></h3>
+        <h3><a href="MPortfolio.html">MPorfolio</a></h3>
+        <h3><a href="#testimonialsarrow">Testimonials</a></h3>
+        <h3><a href="">Night Mode</a></h3>
+      </div>
+      <div class="scrolling">
+          <a href="#front" id="workuparrow"><i class="fas fa-angle-double-up"></i></a>
+          <a href="#workarrow" id="workarrow"><i class="fas fa-angle-double-down"></i></a>
+      </div>
+    </div>
+    <div id="work" class="block">
+      <h1>A Snapshot of My Work</h1>
+      <div id="tech-x" class="job">
+        <div class="jobcard">
+          <div class="jobcard-inner">
+            <div id="tech-x_card" class="frontcard">
+              <div class="joblogo">
+                <img id="tech-x_logo" src="tech-x_logo.png" alt="Tech-X Corporation">
+              </div>
+              <div class="role">
+                <h2>Software Development Intern</h2>
+              </div>
+              <div class="timeframe">
+                <h2>June 2020 &mdash; <br> Present</h2>
+              </div>
+            </div>
+            <div class="backcard">
+              <p> I developed six field updaters in the C++/CUDA architecture for Tech-X's multi-physics simulation software: 
+                unmagnetized linear plasma, four binary operations, and curl updater.<br>
+                Currently working on another updater (ETA: 2 months).
+              </p>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div id="biointerfaces" class="job">
+        <div class="jobcard">
+          <div class="jobcard-inner">
+            <div class="frontcard">
+              <div class="joblogo">
+                <img id="biointerfaces_logo" src="biointerfaces-institute_logo.svg" alt="Biointerfaces Institute">
+              </div>
+              <div class="role">
+                <h2>Research Assistant</h2>
+              </div>
+              <div class="timeframe">
+                <h2>October 2019 &mdash; <br> April 2020</h2>
+              </div>
+            </div>
+            <div class="backcard">
+              <p>I conducted lab reactions to construct protein nanoparticles that improve on current 
+                non-viral gene delivery methods. I used dynamic light scattering, scanning electron microscopy, 
+                and an image processing software to characterize the nanoparticles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="tech-x2019" class="job">
+        <div id="tech-x_card2019" class="jobcard">
+          <div class="jobcard-inner">
+            <div class="frontcard">
+              <div class="joblogo">
+                <img id="tech-x_logo" src="tech-x_logo.png" alt="Tech-X Corporation">
+              </div>
+              <div class="role">
+                <h2>Project Intern</h2>
+              </div>
+              <div class="timeframe">
+                <h2>May 2019 &mdash; <br> August 2019</h2>
+              </div>
+            </div>
+            <div class="backcard">
+              <p>I translated a matrix-solving algorithm from Python to multi-threaded C++ that solves the all-orders 
+                spectral algorithm (AORSA) used in fusion research and modeling. I then executed the code on NERSC 
+                Center’s Cori supercomputer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scrolling">
+        <a href="#aboutmearrow"><i class="fas fa-angle-double-up"></i></a>
+        <a href="#testimonialsarrow" id="testimonialsarrow"><i class="fas fa-angle-double-down"></i></a>
+    </div>
+    </div>
+    <div id="testimonials" class="block">
+      <h1>Testimonials</h1>
+      <div id="testimonialslides" class="slides">
+        <div class="w3-content w3-display-container" style="max-width:1000px">
+          <div id="sophianewton" class="testy">
+            <p>"Jason embodies completely the qualities of a natural leader. That is, he knows that 
+              building something takes more than raw materials and knowledge but also a serious dose of passion
+              and commitment." <br><br> &mdash; Sophia Newton
+            </p>
+          </div>
+          <div class="testy">
+            <p>"Jason believes in living an extraordinary life. He isn't deasily deterred by the things most 
+            people would consider obstacles. Stick with him, and his infectious passion for life might just
+            change yours." <br><br> &mdash; Manasi Anantpur
+            </p>
+          </div>
+          <div class="testy">
+            <p>Testy 3</p>
+          </div>
+          <div class="testy">
+            <p>Testy 4</p>
+          </div>
+          <div class="w3-center w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:500px">
+            <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+          </div>
+        </div>        
+      </div>
+      <!--
+      <div class="scrolling">
+        <a href="#workuparrow"><i class="fas fa-angle-double-up"></i></a>
+        <a href="#contact"><i class="fas fa-angle-double-down"></i></a>
+      </div>
+      -->
+    </div>
+    <footer>
+      <h1>Connect with me!</h1>
+      <ul id="contact" class="footbar">
+        <li><a href="mailto:shuhang@umich.edu"><i class="fas fa-envelope"></i></a></li>
+        <li><a href="https://linkedin.com/in/jasonlin90125"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/jasonlin90125"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://chess.com/member/jasonlin90125"><i class="fas fa-chess-rook"></i></a></li>
+      </ul>
+      <h3>Copyright @ JJ Lincorporated</h3>
+   </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
