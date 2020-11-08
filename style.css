@@ -121,17 +121,17 @@ nav {
   align-items: center;
   font-size: 50px;
   font-weight: normal;
-  color: #385668;
+  color: #385668fa;
 }
 
 /* Double down arrows */
 #intro h1 a {
   text-decoration: none;
-  color: #385668;
+  color: #385668fa;
 }
 
 #intro h1 a:visited {
-  color: #385668;
+  color: #385668fa;
 }
 
 #intro h1 a:hover, #intro h1 a:active {
@@ -162,7 +162,7 @@ nav {
   margin-top: 0px;
   margin-bottom: 30px;
   margin-left: 150px;
-  color:  #385668;
+  color:  #385668fa;
 }
 
 #aboutme h2 {
@@ -240,7 +240,7 @@ nav {
   padding-left: 10px;
   padding-right: 10px;
   color:#dbe9f1;
-  background-color: #385668;
+  background-color: #385668e7;
   border-radius: 12%;
 }
 
@@ -268,11 +268,11 @@ nav {
   margin-right: 3%;
   margin-bottom: 0;
   text-decoration: none;
-  color: #385668;
+  color: #385668fa;
 }
 
 .scrolling a:visited {
-  color: #385668;
+  color: #385668fa;
 }
 
 .scrolling a:hover, #intro a:active {
@@ -291,7 +291,7 @@ nav {
   margin-top: 0px;
   margin-bottom: 30px;
   margin-left: 150px;
-  color:  #385668;
+  color:  #385668fa;
 }
 
 /* Job Description */
@@ -331,10 +331,11 @@ nav {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  background-color: #7a90bdc7;
+  background-color: #385668e7;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 1%;
 }
 
 .backcard {
@@ -344,13 +345,14 @@ nav {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  background-color: rgba(10, 114, 218, 0.356);
+  background-color: #7a90bda6;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: rgb(48, 48, 48);
   transform: rotateY(180deg);
+  border-radius: 1%;
 }
 
 #tech-x_card2019 {
@@ -371,7 +373,7 @@ nav {
 
 #tech-x_logo {
   margin-left: 0px;
-  max-width: 150px;
+  max-width: 130px;
 }
 
 .role {
@@ -428,7 +430,7 @@ nav {
   margin-top: 0px;
   margin-bottom: 30px;
   margin-left: 150px;
-  color:  #385668;
+  color:  #385668fa;
 }
 
 #testimonialslides {
@@ -437,7 +439,7 @@ nav {
   display: flex;
   width: 50%;
   height: 360px;
-  background-color: #385668;
+  background-color: #385668e7;
   border-radius: 1%;
 }
 
@@ -586,7 +588,7 @@ footer h3 {
   align-items: center;
   font-size: 50px;
   font-weight: normal;
-  color: #385668;
+  color: #385668fa;
 }
 
 .librarysection {
@@ -606,11 +608,11 @@ footer h3 {
 #library h1 a {
   font-size: 40px;
   text-decoration: none;
-  color: #385668;
+  color: #385668fa;
 }
 
 #library h1 a:visited {
-  color: #385668;
+  color: #385668fa;
 }
 
 #library h1 a:hover, #library h1 a:active {
@@ -640,17 +642,17 @@ footer h3 {
   align-items: center;
   font-size: 50px;
   font-weight: normal;
-  color: #385668;
+  color: #385668fa;
 }
 
 #MPortfolio h1 a {
   font-size: 40px;
   text-decoration: none;
-  color: #385668;
+  color: #385668fa;
 }
 
 #MPortfolio h1 a:visited {
-  color: #385668;
+  color: #385668fa;
 }
 
 #MPortfolio h1 a:hover, #MPortfolio h1 a:active {
