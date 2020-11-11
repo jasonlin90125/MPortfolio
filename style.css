@@ -239,7 +239,7 @@ nav {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  color:#dbe9f1;
+  color:#d5e3ee;
   background-color: #385668e7;
   border-radius: 12%;
 }
@@ -250,7 +250,7 @@ nav {
 }
 
 #otherlinks h3 a:hover, #otherlinks h3 a:active {
-  color: gold;
+  color: aliceblue;
 }
 
 /* Scrolling Buttons */
@@ -683,6 +683,15 @@ footer h3 {
 .mportcard:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   transform: scale(1.4);
+  z-index: 5;
+}
+
+.mportcard-blank {
+  margin: 0 auto;
+  background-color: transparent;
+  color: none;
+  height: 375px;
+  width: 375px;
 }
 
 .mportcardtext {
@@ -691,6 +700,7 @@ footer h3 {
   text-align: center;
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .mportcardtext h1 {
@@ -705,19 +715,33 @@ footer h3 {
 
 .mportcardtext p {
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   font-size: 12px;
   text-align: left;
+}
+
+.mportcardtext p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mportcardtext p a:hover {
+  color: aliceblue;
 }
 
 .mportcard ul {
   font-size: 12px;
   text-align: left;
-  padding-right: 20px;
+  padding-right: 25px;
 }
 
 .competency {
   margin: 0 auto;
+  margin-right: 25px;
   font-size: 12px;
+  position: absolute;
+  bottom: 15px;
+  left: 25px;
+  text-align: left;
 }
