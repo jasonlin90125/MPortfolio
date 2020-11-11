@@ -171,7 +171,7 @@ nav {
   margin-left: 150px;
   margin-right: 150px;
   line-height: 1.2cm;
-  color: #5f7381;
+  color: #3e484ef8;
   font-weight: normal;
 }
 
@@ -657,4 +657,67 @@ footer h3 {
 
 #MPortfolio h1 a:hover, #MPortfolio h1 a:active {
   color: aliceblue;
+}
+
+/* Row */
+.rowcards {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 82%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mportcard {
+  margin: 0 auto;
+  background-color: rgb(122, 174, 204);
+  color: black;
+  height: 375px;
+  width: 375px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: transform 0.4s;
+}
+
+.mportcard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.4);
+}
+
+.mportcardtext {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.mportcardtext h1 {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  font-size: 20px!important;
+  font-weight: bold;
+  color: #000!important;
+}
+
+.mportcardtext p {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.mportcard ul {
+  font-size: 12px;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.competency {
+  margin: 0 auto;
+  font-size: 12px;
 }
