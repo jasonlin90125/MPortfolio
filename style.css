@@ -14,7 +14,7 @@ body {
 /* Header */
 header {
   /*background: #2F4858;*/
-  background: rgb(173, 187, 201);
+  background: rgb(196, 218, 235);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -196,6 +196,10 @@ nav {
   color: inherit;
 }
 
+#agenda ul a:hover {
+  opacity: 0.7;
+}
+
 .fa-university {
   margin-left: 0px;
   margin-right: 20px;
@@ -247,7 +251,7 @@ nav {
   padding-right: 10px;
   color:rgba(0, 0, 0, 0.69420);
   font-weight: normal;
-  background-color: rgba(173, 187, 201, 0.69420);
+  background-color: rgb(196, 218, 235);
   border-radius: 10%;
 }
 
@@ -259,32 +263,6 @@ nav {
 #otherlinks h3 a:hover, #otherlinks h3 a:active {
   opacity: 0.7;
 }
-
-/* Scrolling Buttons 
-.scrolling {
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.scrolling a {
-  margin-top: 0;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-bottom: 0;
-  text-decoration: none;
-  color: #3e484ef8;
-}
-
-.scrolling a:visited {
-  color: #3e484ef8;
-}
-
-.scrolling a:hover, #intro a:active {
-  color: aliceblue;
-}*/
 
 /* Work */
 #work {
@@ -340,7 +318,7 @@ nav {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  background-color: rgba(173, 187, 201, 0.69420);
+  background-color: rgb(196, 218, 235);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -354,7 +332,7 @@ nav {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  background-color: #819fdb;
+  background-color: #5d7cb9d0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -425,6 +403,7 @@ nav {
   font-size: 16px;
   margin: 10%;
   text-align: left;
+  color: aliceblue;
 }
 
 /* Testimonials */
@@ -450,7 +429,7 @@ nav {
   display: flex;
   width: 50%;
   height: 360px;
-  background-color: rgba(173, 187, 201, 0.69420);
+  background-color: rgb(196, 218, 235);
   border-radius: 1%;
 }
 
@@ -501,7 +480,7 @@ span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 
 /* Footer */
 footer {
-  background-color: rgb(173, 187, 201);
+  background-color: rgb(196, 218, 235);
   margin-top: 50px;
   padding: 20px;
   width: 100%;
@@ -516,7 +495,7 @@ footer h1 {
   display: flex;
   justify-content: center;
   font-size: 35px;
-  font-weight: normal;
+  font-weight: bold;
   padding-top: 30px;
   padding-bottom: 25px;
   color: rgba(0, 0, 0, 0.69420);
@@ -555,12 +534,12 @@ footer h3 {
 
 .footbar li a:link {
   font-size: 20px;
-  color: gold;
+  color: rgba(0, 0, 0, 0.69420);
   text-decoration: none;
 }
 
 .footbar li a:visited {
-  color: gold;
+  color: rgba(0, 0, 0, 0.69420);
 }
 
 .footbar li a:hover, footer ul li a:active {
@@ -599,27 +578,26 @@ footer h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.69420);
 }
 
 .librarysection {
   margin-top: 3%;
-  margin-left: 10%;
+  margin-left: 25%;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.69420);
 }
 
 .librarylist {
-  margin-left: 11%;
+  margin-left: 24%;
   margin-bottom: 3%;
   color: rgba(0, 0, 0, 0.69420);
   line-height: 1.2cm;
 }
 
 #library h1 a {
-  font-size: 40px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.69420);
 }
@@ -652,13 +630,12 @@ footer h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.69420);
 }
 
 #MPortfolio h1 a {
-  font-size: 40px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.69420);
 }
@@ -684,7 +661,7 @@ footer h3 {
 
 .mportcard {
   margin: 0 auto;
-  background-color: rgb(122, 174, 204);
+  background-color:rgb(196, 218, 235);
   color: black;
   height: 375px;
   width: 375px;
