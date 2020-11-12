@@ -121,17 +121,17 @@ nav {
   align-items: center;
   font-size: 50px;
   font-weight: normal;
-  color: #385668fa;
+  color: #385668;
 }
 
 /* Double down arrows */
 #intro h1 a {
   text-decoration: none;
-  color: #385668fa;
+  color: #385668;
 }
 
 #intro h1 a:visited {
-  color: #385668fa;
+  color: #385668;
 }
 
 #intro h1 a:hover, #intro h1 a:active {
@@ -162,7 +162,7 @@ nav {
   margin-top: 0px;
   margin-bottom: 40px;
   margin-left: 150px;
-  color:  #385668fa;
+  color:  #385668;
 }
 
 #aboutme h2 {
@@ -240,7 +240,7 @@ nav {
   padding-left: 10px;
   padding-right: 10px;
   color:#d5e3ee;
-  background-color: #385668e7;
+  background-color: #385668;
   border-radius: 12%;
 }
 
@@ -250,7 +250,7 @@ nav {
 }
 
 #otherlinks h3 a:hover, #otherlinks h3 a:active {
-  color: aliceblue;
+  color: gold;
 }
 
 /* Scrolling Buttons */
@@ -268,11 +268,11 @@ nav {
   margin-right: 3%;
   margin-bottom: 0;
   text-decoration: none;
-  color: #385668fa;
+  color: #385668;
 }
 
 .scrolling a:visited {
-  color: #385668fa;
+  color: #385668;
 }
 
 .scrolling a:hover, #intro a:active {
@@ -291,7 +291,7 @@ nav {
   margin-top: 0px;
   margin-bottom: 50px;
   margin-left: 150px;
-  color:  #385668fa;
+  color:  #385668;
 }
 
 /* Job Description */
@@ -331,7 +331,7 @@ nav {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  background-color: #385668e7;
+  background-color: #385668d2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -345,7 +345,7 @@ nav {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  background-color: #89a0ce;
+  background-color: #819fdb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -430,7 +430,7 @@ nav {
   margin-top: 0px;
   margin-bottom: 50px;
   margin-left: 150px;
-  color:  #385668fa;
+  color:  #385668;
 }
 
 #testimonialslides {
@@ -439,7 +439,7 @@ nav {
   display: flex;
   width: 50%;
   height: 360px;
-  background-color: #385668e7;
+  background-color: #385668;
   border-radius: 1%;
 }
 
@@ -588,7 +588,7 @@ footer h3 {
   align-items: center;
   font-size: 50px;
   font-weight: normal;
-  color: #385668fa;
+  color: #385668;
 }
 
 .librarysection {
@@ -608,11 +608,11 @@ footer h3 {
 #library h1 a {
   font-size: 40px;
   text-decoration: none;
-  color: #385668fa;
+  color: #385668;
 }
 
 #library h1 a:visited {
-  color: #385668fa;
+  color: #385668;
 }
 
 #library h1 a:hover, #library h1 a:active {
@@ -642,17 +642,17 @@ footer h3 {
   align-items: center;
   font-size: 50px;
   font-weight: normal;
-  color: #385668fa;
+  color: #385668;
 }
 
 #MPortfolio h1 a {
   font-size: 40px;
   text-decoration: none;
-  color: #385668fa;
+  color: #385668;
 }
 
 #MPortfolio h1 a:visited {
-  color: #385668fa;
+  color: #385668;
 }
 
 #MPortfolio h1 a:hover, #MPortfolio h1 a:active {
