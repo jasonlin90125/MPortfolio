@@ -699,7 +699,7 @@ footer h3 {
   width: 90%;
   font-size: 20px!important;
   font-weight: bold;
-  color: #000!important;
+  color:rgba(0, 0, 0, 0.69420)!important;
 }
 
 .mportcardtext p {
@@ -708,6 +708,7 @@ footer h3 {
   padding-right: 25px;
   font-size: 12px;
   text-align: left;
+  color:  rgba(0, 0, 0, 0.69420);
 }
 
 .mportcardtext p a {
@@ -732,5 +733,6 @@ footer h3 {
   position: absolute;
   bottom: 15px;
   left: 25px;
+  color: #000;
   text-align: left;
 }
