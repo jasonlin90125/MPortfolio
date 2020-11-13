@@ -24,6 +24,3 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " w3-black";
 }
-
-const testimonials = document.getElementById('testimonials');
-testimonials.scrollIntoView(false);
