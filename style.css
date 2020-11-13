@@ -291,8 +291,8 @@ nav {
 }
 
 .jobcard {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
   height: 175px;
   width: 800px;
   background-color: inherit;
