@@ -34,14 +34,24 @@ function showDivs(n) {
 //}
 
 /* Dark Mode Implementation */
-const themeButton = document.querySelector('.theme-toggle');
-const theme = document.querySelector('#theme-link');
+const modeButton = document.querySelector(".theme-toggle");
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+const currentTheme = localStorage.getItem("theme");
 
-themeButton.addEventListener("click", function() {
-  if (theme.getAttribute("href") == "light-theme.css") {
-    theme.href = "dark-theme.css";
+if (currentTheme == "dark") {
+  document.body.classList.toggle("dark-mode");
+} 
+else if (currentTheme == "light") {
+  document.body.classList.toggle("light-mode");
+}
+
+modeButton.addEventListener("click", function() {
+  if (prefersDarkScheme.matches) {
+    document.body.classList.toggle("light-mode");
+    var theme = document.body.classList.contains("light-mode") ? "light" : "dark";
+  } else {
+    document.body.classList.toggle("dark-mode");
+    var theme = document.body.classList.contains("dark-mode") ? "dark" : "light";
   }
-  else {
-    theme.href = "light-theme.css";
-  }
+  localStorage.setItem("theme", theme);
 });
