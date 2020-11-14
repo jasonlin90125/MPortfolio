@@ -40,9 +40,11 @@ const currentTheme = localStorage.getItem("theme");
 
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-mode");
+  modeButton.innerHTML = "Light Mode";
 } 
 else if (currentTheme == "light") {
   document.body.classList.toggle("light-mode");
+  modeButton.innerHTML = "Night Mode";
 }
 
 modeButton.addEventListener("click", function() {
@@ -54,10 +56,10 @@ modeButton.addEventListener("click", function() {
     var theme = document.body.classList.contains("dark-mode") ? "dark" : "light";
   }
   localStorage.setItem("theme", theme);
-  if (modeButton.innerHTML == "Night Mode") {
-    modeButton.innerHTML = "Light Mode";
+  if (modeButton.innerHTML == "Light Mode") {
+    modeButton.innerHTML = "Night Mode";
   }
   else {
-    modeButton.innerHTML = "Night Mode";
+    modeButton.innerHTML = "Light Mode";
   }
 });
