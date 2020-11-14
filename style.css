@@ -64,13 +64,11 @@ nav {
 
 #navitems a:link {
   font-size: 18px;
-  /*color: aliceblue;*/
   color: rgba(0, 0, 0, 0.69420); 
   text-decoration: none;
 }
 
 #navitems a:visited {
-  /*color: aliceblue;*/
   color: rgba(0, 0, 0, 0.69420);
 }
 
@@ -80,7 +78,7 @@ nav {
 
 /* Introduction */
 .block {
-  background-color: inherit;
+  background-color: transparent;
   margin: 0 auto;
   height: 100%;
   width: 100%;
@@ -94,7 +92,7 @@ nav {
 }
 
 #intro {
-  background-color: inherit;
+  background-color: transparent;
   margin-top: 80px;
   height: 100%;
   width: 100%;
@@ -749,10 +747,23 @@ footer h3 {
 All the dark mode stuff
 *********************/
 .dark-mode {
-  background-color: black!important;
-  color: white!important;
+  background-color: #152028;
+  color: aliceblue;
 }
 
 .dark-mode header {
-  background-color: darkblue;
+  background-color: rgb(119, 119, 190);
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.02);
+}
+
+.dark-mode #navitems a:link {
+  color: aliceblue;
+}
+
+.dark-mode #navitems a:visited {
+  color: aliceblue;
+}
+
+.dark-mode #navitems a:hover, .dark-mode #navitems a:active {
+  color: gold;
 }
