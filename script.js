@@ -43,13 +43,13 @@ var currentTheme = localStorage.getItem("theme");
 
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-mode");
-  modeButton.innerHTML = "Light Mode";
-  welcomeMsg.innerHTML = "Welcome to my dark side.";
+  //modeButton.innerHTML = "Light Mode";
+  //welcomeMsg.innerHTML = "Welcome to my dark side.";
 } 
 else if (currentTheme == "light") {
   document.body.classList.toggle("light-mode");
-  modeButton.innerHTML = "Night Mode";
-  welcomeMsg.innerHTML = "Learn more about me!";
+  //modeButton.innerHTML = "Night Mode";
+  //welcomeMsg.innerHTML = "Learn more about me!";
 }
 
 modeButton.addEventListener("click", function() {
@@ -61,12 +61,11 @@ modeButton.addEventListener("click", function() {
     var theme = document.body.classList.contains("dark-mode") ? "dark" : "light";
   }
   localStorage.setItem("theme", theme);
-  if (modeButton.innerHTML == "Light Mode") {
-    modeButton.innerHTML = "Night Mode";
-    welcomeMsg.innerHTML = "Learn more about me!";
-  }
-  else {
-    modeButton.innerHTML = "Light Mode";
-    welcomeMsg.innerHTML = "Welcome to my dark side.";
-  }
+  //if (modeButton.innerHTML == "Light Mode") {
+  //  modeButton.innerHTML = "Night Mode";
+  //  welcomeMsg.innerHTML = "Learn more about me!";
+  //}
+  //else {
+  //  welcomeMsg.innerHTML = "Welcome to my dark side.";
+  //}
 });

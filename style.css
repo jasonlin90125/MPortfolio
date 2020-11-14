@@ -93,6 +93,11 @@ nav button {
 
 nav button:hover, nav button:active {
   opacity: 0.7;
+  color: aliceblue;
+}
+
+.fa-moon {
+  font-size: 25px;
 }
 
 /* Introduction */
