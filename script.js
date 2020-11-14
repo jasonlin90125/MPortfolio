@@ -34,7 +34,7 @@ function showDivs(n) {
 //}
 
 /* Dark Mode Implementation */
-const modeButton = document.querySelector(".theme-toggle");
+var modeButton = document.querySelector(".theme-toggle");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 const currentTheme = localStorage.getItem("theme");
 
@@ -54,4 +54,10 @@ modeButton.addEventListener("click", function() {
     var theme = document.body.classList.contains("dark-mode") ? "dark" : "light";
   }
   localStorage.setItem("theme", theme);
+  if (modeButton.innerHTML == "Night Mode") {
+    modeButton.innerHTML = "Light Mode";
+  }
+  else {
+    modeButton.innerHTML = "Night Mode";
+  }
 });

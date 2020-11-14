@@ -11,11 +11,6 @@ body {
   padding: 0;
 }
 
-body.dark-mode {
-  background-color: black;
-  color: white;
-}
-
 /* Header */
 header {
   background: rgb(196, 218, 235);
@@ -261,6 +256,18 @@ nav {
 }
 
 #otherlinks h3 a:hover, #otherlinks h3 a:active {
+  opacity: 0.7;
+}
+
+#otherlinks button {
+  border: none;
+  text-decoration: none;
+  background-color: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+#otherlinks button:hover {
   opacity: 0.7;
 }
 
@@ -736,4 +743,16 @@ footer h3 {
   left: 25px;
   color: #000;
   text-align: left;
+}
+
+/*********************
+All the dark mode stuff
+*********************/
+.dark-mode {
+  background-color: black!important;
+  color: white!important;
+}
+
+.dark-mode header {
+  background-color: darkblue;
 }
