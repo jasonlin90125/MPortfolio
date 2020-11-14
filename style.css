@@ -263,9 +263,10 @@ nav {
   background-color: inherit;
   font-size: inherit;
   color: inherit;
+  outline: none;
 }
 
-#otherlinks button:hover {
+#otherlinks button:hover, #otherlinks button:active {
   opacity: 0.7;
 }
 
@@ -769,7 +770,7 @@ All the dark mode stuff
 }
 
 .dark-mode #otherlinks h3 {
-  background-color: #038596;
+  background-color: #016f7e;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
 }
 
@@ -821,7 +822,7 @@ All the dark mode stuff
   }
 
   #otherlinks h3 {
-    background-color: #038596;
+    background-color: #016f7e;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
   }
   
