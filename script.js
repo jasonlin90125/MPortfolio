@@ -37,7 +37,7 @@ function showDivs(n) {
 var modeButton = document.querySelector(".theme-toggle");
 var welcomeMsg = document.getElementById("welcome");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-const currentTheme = localStorage.getItem("theme");
+var currentTheme = localStorage.getItem("theme");
 
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-mode");
