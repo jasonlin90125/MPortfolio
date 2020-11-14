@@ -747,12 +747,12 @@ footer h3 {
 All the dark mode stuff
 *********************/
 .dark-mode {
-  background-color: #152028;
+  background-color: #1d313f;
   color: aliceblue;
 }
 
 .dark-mode header {
-  background-color: #038596;
+  background-color:#038596;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
 }
 
