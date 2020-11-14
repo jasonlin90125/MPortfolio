@@ -748,20 +748,20 @@ All the dark mode stuff
 *********************/
 .dark-mode {
   background-color: #152028;
-  color: #EDF5FF;
+  color: aliceblue;
 }
 
 .dark-mode header {
-  background-color: #016f7e;
+  background-color: #038596;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
 }
 
 .dark-mode #navitems a:link {
-  color: #EDF5FF;
+  color: aliceblue;
 }
 
 .dark-mode #navitems a:visited {
-  color: #EDF5FF;
+  color: aliceblue;
 }
 
 .dark-mode #navitems a:hover, .dark-mode #navitems a:active {
@@ -769,13 +769,13 @@ All the dark mode stuff
 }
 
 .dark-mode #otherlinks h3 {
-  background-color: #016f7e;
+  background-color: #038596;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
 }
 
 .dark-mode footer {
   background-color: #016f7e;
-  box-shadow: 4px 0 8px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 4px 0 8px 0 rgba(255, 255, 255, 0.1);
 }
 
 .dark-mode .frontcard {
@@ -790,8 +790,8 @@ All the dark mode stuff
   color: gold;
 }
 
-.dark-mode .w3-text-black{color: #EDF5FF!important}
-.dark-mode .w3-badge{background-color:#FFF!important; color: #EDF5FF!important}
+.dark-mode .w3-text-black{color: aliceblue!important}
+.dark-mode .w3-badge{background-color:#FFF!important; color: aliceblue!important}
 .dark-mode .w3-transparent{background-color: transparent!important}
 .dark-mode .w3-border{border:1px solid #FFF!important}
-.dark-mode .w3-black, .dark-mode .w3-hover-black:hover{color:#FFF!important;background-color:#EDF5FF!important}
+.dark-mode .w3-black, .dark-mode .w3-hover-black:hover{color:#FFF!important;background-color:aliceblue!important}
