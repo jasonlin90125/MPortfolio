@@ -35,16 +35,19 @@ function showDivs(n) {
 
 /* Dark Mode Implementation */
 var modeButton = document.querySelector(".theme-toggle");
+var welcomeMsg = document.getElementById("welcome");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 const currentTheme = localStorage.getItem("theme");
 
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-mode");
   modeButton.innerHTML = "Light Mode";
+  welcomeMsg.innerHTML = "Welcome to my dark side.";
 } 
 else if (currentTheme == "light") {
   document.body.classList.toggle("light-mode");
   modeButton.innerHTML = "Night Mode";
+  welcomeMsg.innerHTML = "Learn more about me!";
 }
 
 modeButton.addEventListener("click", function() {
@@ -58,8 +61,10 @@ modeButton.addEventListener("click", function() {
   localStorage.setItem("theme", theme);
   if (modeButton.innerHTML == "Light Mode") {
     modeButton.innerHTML = "Night Mode";
+    welcomeMsg.innerHTML = "Learn more about me!";
   }
   else {
     modeButton.innerHTML = "Light Mode";
+    welcomeMsg.innerHTML = "Welcome to my dark side.";
   }
 });
