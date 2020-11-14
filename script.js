@@ -1,3 +1,4 @@
+/* Slideshow stuff */
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -25,8 +26,22 @@ function showDivs(n) {
   dots[slideIndex-1].className += " w3-black";
 }
 
-history.scrollRestoration = "manual";
-window.onload = function() {
-  window.scrollTo(0,0);
-  document.querySelector('html').style.scrollBehavior = '';
-}
+/* Refresh goes back to beginning */
+//history.scrollRestoration = "manual";
+//window.onload = function() {
+//  window.scrollTo(0,0);
+//  document.querySelector('html').style.scrollBehavior = '';
+//}
+
+/* Dark Mode Implementation */
+const themeButton = document.querySelector('.theme-toggle');
+const theme = document.querySelector('#theme-link');
+
+themeButton.addEventListener("click", function() {
+  if (theme.getAttribute("href") == "light-theme.css") {
+    theme.href = "dark-theme.css";
+  }
+  else {
+    theme.href = "light-theme.css";
+  }
+});
