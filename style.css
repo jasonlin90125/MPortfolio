@@ -12,6 +12,7 @@ body {
   color: rgba(0, 0, 0, 0.69420); 
   margin: 0 auto;
   padding: 0;
+  width: 100vw;
 }
 
 /* Header */
@@ -32,8 +33,9 @@ header {
 }
 
 #branding {
-  margin-left: 30px;
-  padding: 0px;
+  display: flex;
+  margin-left: 2%;
+  padding: 0;
 }
 
 #branding a {
@@ -65,6 +67,7 @@ nav {
 
 #navitems {
   margin: 0 auto;
+  display: flex;
   padding: 5px 10px;
   text-decoration: none;
   background-color: transparent; 
