@@ -115,6 +115,10 @@ nav button:hover, nav button:active {
   #navitems a:link {
     font-size: 14px;
   }
+
+  .fa-moon, .fa-sun {
+    font-size: 12px;
+  }
 }
 
 /* Introduction */
