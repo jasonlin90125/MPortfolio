@@ -106,6 +106,17 @@ nav button:hover, nav button:active {
   font-size: 25px;
 }
 
+/* Phone */
+@media screen and (max-width: 800px) {
+  #branding a {
+    font-size: 18px;
+  }
+
+  #navitems a:link {
+    font-size: 14px;
+  }
+}
+
 /* Introduction */
 .block {
   background-color: transparent;
