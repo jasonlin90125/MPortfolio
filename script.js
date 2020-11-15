@@ -1,6 +1,6 @@
 /* Slideshow stuff */
 var homePage = Boolean(window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1) == "index.html");
-var openPageURL = "https://jasonlin.netlify.app/";
+var openPageURL = window.location.protocol + '//' + window.location.hostname + '/';
 var openPage = Boolean(window.location.href == openPageURL);
 if (homePage || openPage) {
   var slideIndex = 1;
