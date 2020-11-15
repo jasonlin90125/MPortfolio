@@ -108,7 +108,7 @@ nav button:hover, nav button:active {
   font-size: 25px;
 }
 
-@media screen and (max-width: width) {
+@media screen and (max-width: 600px) {
   #branding a {
     font-size: 12px;
   }
