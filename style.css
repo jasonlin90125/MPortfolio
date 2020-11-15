@@ -123,11 +123,13 @@ nav button:hover, nav button:active {
 
 #intro {
   background-color: transparent;
+  margin: 0 auto;
   margin-top: 80px;
   height: 100%;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  vertical-align: middle;
   justify-content: center;
   align-items: center;
 }
