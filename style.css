@@ -1023,4 +1023,10 @@ All the dark mode stuff
     line-height: 0.6cm;
     width: 80%;
   }
+
+  .fa-university {font-size: 20px}
+  .fa-car {font-size: 20px}
+  .fa-briefcase {font-size: 20px}
+  .fa-music {font-size: 20px}
+  .fa-book {font-size: 20px}
 }
