@@ -106,25 +106,6 @@ nav button:hover, nav button:active {
   font-size: 25px;
 }
 
-/* Phone */
-@media screen and (max-width: 800px) {
-  #branding a {
-    font-size: 18px;
-  }
-
-  #navitems a:link {
-    font-size: 14px;
-  }
-
-  .fa-moon, .fa-sun {
-    font-size: 12px;
-  }
-
-  #profilepic {
-    width: 100px;
-  }
-}
-
 /* Introduction */
 .block {
   background-color: transparent;
@@ -145,7 +126,8 @@ nav button:hover, nav button:active {
   margin-top: 80px;
   height: 100%;
   width: 100%;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -1001,5 +983,32 @@ All the dark mode stuff
 
   .light-mode .competency {
     color: #000;
+  }
+}
+
+/* Phone compatibility */
+@media screen and (max-width: 800px) {
+  #branding a {
+    font-size: 18px;
+  }
+
+  #navitems a:link {
+    font-size: 14px;
+  }
+
+  .fa-moon, .fa-sun {
+    font-size: 12px;
+  }
+
+  #profilepic {
+    width: 100px;
+  }
+
+  #intro h1 {
+    font-size: 30px;
+  }
+
+  #aboutme h2 {
+    font-size: 14px;
   }
 }
