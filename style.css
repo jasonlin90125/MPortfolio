@@ -812,6 +812,14 @@ All the dark mode stuff
 .dark-mode .w3-border{border:1px solid #FFF!important}
 .dark-mode .w3-black, .dark-mode .w3-hover-black:hover{color:#FFF!important;background-color:aliceblue!important}
 
+.dark-mode .mportcard {
+  background-color: #016f7e;
+}
+
+.dark-mode .mportcardtext p a:hover {
+  color: gold;
+}
+
 /* For users who like dark */
 @media (prefers-color-scheme: dark) {
   body {
@@ -867,6 +875,14 @@ All the dark mode stuff
   .w3-transparent{background-color: transparent!important}
   .w3-border{border:1px solid #FFF!important}
   .w3-black, .w3-hover-black:hover{color:#FFF!important;background-color:aliceblue!important}
+
+  .mportcard {
+    background-color: #016f7e;
+  }
+
+  .mportcardtext p a:hover {
+    color: gold;
+  }
 
   /* Light mode for dark users */
   .light-mode {
@@ -927,4 +943,11 @@ All the dark mode stuff
   .light-mode .w3-border{border:1px solid #000!important}
   .light-mode .w3-black, .light-mode .w3-hover-black:hover{color:#000!important;background-color:rgba(0, 0, 0, 0.69420)!important}
 
+  .light-mode .mportcard {
+    background-color: rgb(196, 218, 235);
+  }
+
+  .light-mode .mportcardtext p a:hover {
+    color: aliceblue;
+  }
 }
