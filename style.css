@@ -119,6 +119,10 @@ nav button:hover, nav button:active {
   .fa-moon, .fa-sun {
     font-size: 12px;
   }
+
+  #profilepic {
+    width: 100px;
+  }
 }
 
 /* Introduction */
