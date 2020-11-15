@@ -1,5 +1,6 @@
 /* Slideshow stuff */
-if (window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1) == "index.html") {
+var homePage = Boolean(window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1) == "index.html");
+if (homePage) {
   var slideIndex = 1;
   showDivs(slideIndex);
 
@@ -38,23 +39,27 @@ if (window.location.pathname.substring(window.location.pathname.lastIndexOf('/')
 /* Dark Mode Implementation */
 var modeButton = document.querySelector(".theme-toggle");
 var iconType = document.getElementById("sunmoon");
-var welcomeMsg = document.getElementById("welcome");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 var currentTheme = localStorage.getItem("theme");
+var welcomeMsg = document.getElementById("welcome");
 
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-mode");
   if (iconType.className == "fas fa-moon") {
     iconType.className = "fas fa-sun";
   }
-  welcomeMsg.innerHTML = "Welcome to my dark side.";
+  if (homePage) {
+    welcomeMsg.innerHTML = "Welcome to my dark side.";
+  }
 } 
 else if (currentTheme == "light") {
   document.body.classList.toggle("light-mode");
   if (iconType.className == "fas fa-sun") {
     iconType.className = "fas fa-moon";
   }
-  welcomeMsg.innerHTML = "Learn more about me!";
+  if (homePage) {
+    welcomeMsg.innerHTML = "Learn more about me!";
+  }
 };
 
 modeButton.addEventListener("click", function() {
@@ -67,11 +72,15 @@ modeButton.addEventListener("click", function() {
   }
   localStorage.setItem("theme", theme);
   if (theme == "light") {
-    welcomeMsg.innerHTML = "Learn more about me!";
+    if (homePage) {
+      welcomeMsg.innerHTML = "Learn more about me!";
+    }
     iconType.className = "fas fa-moon";
   }
   else {
-    welcomeMsg.innerHTML = "Welcome to my dark side.";
+    if (homePage) {
+      welcomeMsg.innerHTML = "Welcome to my dark side.";
+    }
     iconType.className = "fas fa-sun";
   }
 });
