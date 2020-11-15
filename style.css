@@ -967,7 +967,7 @@ All the dark mode stuff
     color: aliceblue;
   }
 
-  .competency {
+  .light-mode .competency {
     color: #000;
   }
 }
