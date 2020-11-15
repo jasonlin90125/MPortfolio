@@ -33,7 +33,7 @@ header {
 }
 
 #branding {
-  display: flex;
+  display: block;
   margin-left: 2%;
   padding: 0;
 }
@@ -48,7 +48,7 @@ header {
 nav {
   overflow: hidden;
   position: absolute;
-  margin-left: 26vw;
+  margin-left: 27vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +62,7 @@ nav {
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  width: 18vw;
+  width: 17vw;
 }
 
 #navitems {
