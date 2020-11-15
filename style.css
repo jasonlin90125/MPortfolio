@@ -966,4 +966,8 @@ All the dark mode stuff
   .light-mode .mportcardtext p a:hover {
     color: aliceblue;
   }
+
+  .competency {
+    color: #000;
+  }
 }
