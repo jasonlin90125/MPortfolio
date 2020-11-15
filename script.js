@@ -37,20 +37,25 @@ if (window.location.pathname.substring(window.location.pathname.lastIndexOf('/')
 
 /* Dark Mode Implementation */
 var modeButton = document.querySelector(".theme-toggle");
+var iconType = document.getElementById("sunmoon");
 var welcomeMsg = document.getElementById("welcome");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 var currentTheme = localStorage.getItem("theme");
 
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-mode");
-  //modeButton.innerHTML = "Light Mode";
-  //welcomeMsg.innerHTML = "Welcome to my dark side.";
+  if (iconType.className == "fas fa-moon") {
+    iconType.className = "fas fa-sun";
+  }
+  welcomeMsg.innerHTML = "Welcome to my dark side.";
 } 
 else if (currentTheme == "light") {
   document.body.classList.toggle("light-mode");
-  //modeButton.innerHTML = "Night Mode";
-  //welcomeMsg.innerHTML = "Learn more about me!";
-}
+  if (iconType.className == "fas fa-sun") {
+    iconType.className = "fas fa-moon";
+  }
+  welcomeMsg.innerHTML = "Learn more about me!";
+};
 
 modeButton.addEventListener("click", function() {
   if (prefersDarkScheme.matches) {
@@ -61,11 +66,12 @@ modeButton.addEventListener("click", function() {
     var theme = document.body.classList.contains("dark-mode") ? "dark" : "light";
   }
   localStorage.setItem("theme", theme);
-  //if (modeButton.innerHTML == "Light Mode") {
-  //  modeButton.innerHTML = "Night Mode";
-  //  welcomeMsg.innerHTML = "Learn more about me!";
-  //}
-  //else {
-  //  welcomeMsg.innerHTML = "Welcome to my dark side.";
-  //}
+  if (theme == "light") {
+    welcomeMsg.innerHTML = "Learn more about me!";
+    iconType.className = "fas fa-moon";
+  }
+  else {
+    welcomeMsg.innerHTML = "Welcome to my dark side.";
+    iconType.className = "fas fa-sun";
+  }
 });

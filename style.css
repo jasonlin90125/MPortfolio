@@ -96,7 +96,7 @@ nav button:hover, nav button:active {
   color: aliceblue;
 }
 
-.fa-moon {
+.fa-moon, .fa-sun {
   font-size: 25px;
 }
 
@@ -780,6 +780,10 @@ All the dark mode stuff
   color: gold;
 }
 
+.dark-mode nav button:hover, nav button:active {
+  color: gold;
+}
+
 .dark-mode #otherlinks h3 {
   background-color: #016f7e;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
@@ -832,6 +836,10 @@ All the dark mode stuff
     color: gold;
   }
 
+  nav button:hover, nav button:active {
+    color: gold;
+  }
+
   #otherlinks h3 {
     background-color: #016f7e;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
@@ -880,6 +888,10 @@ All the dark mode stuff
   }
   
   .light-mode #navitems a:hover, .light-mode #navitems a:active {
+    color: aliceblue;
+  }
+
+  .light-mode nav button:hover, nav button:active {
     color: aliceblue;
   }
   
