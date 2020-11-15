@@ -7,6 +7,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   background-color: aliceblue;
   color: rgba(0, 0, 0, 0.69420); 
   margin: 0 auto;
@@ -19,6 +20,8 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
+  flex-basis: auto;
   align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
