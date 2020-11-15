@@ -1,6 +1,7 @@
 /* Slideshow stuff */
 var homePage = Boolean(window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1) == "index.html");
-if (homePage) {
+var openPage = Boolean(window.location.href == window.location.protocol + '//' + window.location.hostname);
+if (homePage || openPage) {
   var slideIndex = 1;
   showDivs(slideIndex);
 
