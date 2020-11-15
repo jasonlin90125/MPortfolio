@@ -817,6 +817,7 @@ All the dark mode stuff
 
 .dark-mode .mportcard {
   background-color: #015a66;
+  border: 0.2px solid #1e2b35;
   box-shadow: none;
 }
 
@@ -889,6 +890,7 @@ All the dark mode stuff
 
   .mportcard {
     background-color: #015a66;
+    border: 0.2px solid #1e2b35;
     box-shadow: none;
   }
 
@@ -961,6 +963,11 @@ All the dark mode stuff
 
   .light-mode .mportcard {
     background-color: rgb(196, 218, 235);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .light-mode .mportcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
   .light-mode .mportcardtext p a:hover {
