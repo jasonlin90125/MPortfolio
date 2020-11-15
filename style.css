@@ -108,6 +108,12 @@ nav button:hover, nav button:active {
   font-size: 25px;
 }
 
+@media screen and (max-width: width) {
+  #branding a {
+    font-size: 12px;
+  }
+}
+
 /* Introduction */
 .block {
   background-color: transparent;
