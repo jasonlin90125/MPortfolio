@@ -759,13 +759,12 @@ footer h3 {
 All the dark mode stuff
 *********************/
 .dark-mode {
-  background-color: #1d313f;
+  background-color: #1e2b35;
   color: aliceblue;
 }
 
 .dark-mode header {
-  background-color:#038596;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
+  background-color:#015a66;
 }
 
 .dark-mode #navitems a:link {
@@ -785,21 +784,20 @@ All the dark mode stuff
 }
 
 .dark-mode #otherlinks h3 {
-  background-color: #016f7e;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
+  background-color: #015a66;
 }
 
 .dark-mode footer {
-  background-color: #016f7e;
+  background-color: #015a66;
   box-shadow: 4px 0 8px 0 rgba(255, 255, 255, 0.1);
 }
 
 .dark-mode .frontcard {
-  background-color: #016f7e;
+  background-color: #015a66;
 }
 
 .dark-mode #testimonialslides {
-  background-color: #016f7e;
+  background-color: #015a66;
 }
 
 .dark-mode .footbar li a:hover, .dark-mode footer ul li a:active {
@@ -813,7 +811,7 @@ All the dark mode stuff
 .dark-mode .w3-black, .dark-mode .w3-hover-black:hover{color:#FFF!important;background-color:aliceblue!important}
 
 .dark-mode .mportcard {
-  background-color: #016f7e;
+  background-color: #015a66;
 }
 
 .dark-mode .mportcardtext p a:hover {
