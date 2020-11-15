@@ -783,13 +783,18 @@ All the dark mode stuff
   color: gold;
 }
 
+.dark-mode #profilepic {
+  box-shadow: none;
+}
+
 .dark-mode #otherlinks h3 {
   background-color: #015a66;
+  box-shadow: none;
 }
 
 .dark-mode footer {
   background-color: #015a66;
-  box-shadow: 4px 0 8px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: none;
 }
 
 .dark-mode .frontcard {
@@ -812,10 +817,15 @@ All the dark mode stuff
 
 .dark-mode .mportcard {
   background-color: #015a66;
+  box-shadow: none;
 }
 
 .dark-mode .mportcardtext p a:hover {
   color: gold;
+}
+
+.dark-mode .competency {
+  color: aliceblue;
 }
 
 /* For users who like dark */
