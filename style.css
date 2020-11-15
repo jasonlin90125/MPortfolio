@@ -150,6 +150,7 @@ nav button:hover, nav button:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 50px;
   font-weight: normal;
   color: inherit;
@@ -1001,19 +1002,16 @@ All the dark mode stuff
   }
 
   #profilepic {
-    width: 100px;
+    width: 250px;
   }
 
   #intro h1 {
     font-size: 30px;
   }
 
-  #aboutme {
-    width: 80%;
-  }
-
   #aboutme h2 {
     font-size: 14px;
-    line-height: 0.4cm;
+    line-height: 0.6cm;
+    width: 80%;
   }
 }
