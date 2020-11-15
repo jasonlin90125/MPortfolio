@@ -105,6 +105,13 @@ nav button:hover, nav button:active {
   font-size: 25px;
 }
 
+/* For small screens */
+@media only screen and (max-width: 600px) {
+  #navitems a:link {
+    font-size: 12px;
+  }
+}
+
 /* Introduction */
 .block {
   background-color: transparent;
