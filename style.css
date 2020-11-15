@@ -513,7 +513,8 @@ footer {
   padding: 20px;
   width: 100%;
   box-sizing: border-box;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   vertical-align: middle;
   justify-content: center;
 }
