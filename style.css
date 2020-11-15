@@ -996,6 +996,11 @@ All the dark mode stuff
 
 /* Phone compatibility */
 @media screen and (max-width: 800px) {
+  header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   #branding a {
     font-size: 18px;
   }
