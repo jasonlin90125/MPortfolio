@@ -997,16 +997,16 @@ All the dark mode stuff
 /* Phone compatibility */
 @media screen and (max-width: 800px) {
   header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
 
   #branding a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #navitems a:link {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .fa-moon, .fa-sun {
