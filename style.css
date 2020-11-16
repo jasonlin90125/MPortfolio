@@ -272,16 +272,15 @@ nav button:hover, nav button:active {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 40%;
 }
 
 #otherlinks h3 {
-  margin-left: 12px;
-  margin-right: 12px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin: 0 auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding: 2%;
+  border-radius: 10%;
   color: inherit;
   font-weight: normal;
   background-color: rgb(196, 218, 235);
@@ -1048,4 +1047,8 @@ All the dark mode stuff
   .fa-briefcase {font-size: 20px}
   .fa-music {font-size: 20px}
   .fa-book {font-size: 20px}
+
+  #otherlinks h3 {
+    font-size: 12px;
+  }
 }
