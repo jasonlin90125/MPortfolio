@@ -979,6 +979,7 @@ All the dark mode stuff
 
   .light-mode .mportcard {
     background-color: rgb(196, 218, 235);
+    border: none;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
