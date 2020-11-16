@@ -1122,9 +1122,7 @@ All the dark mode stuff
   #MPortfolio h1 {
     font-size: 25px;
   }
-}
 
-@media only screen and (max-width: 1300px) {
   .rowcards {
     display: block;
   }
