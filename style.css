@@ -563,7 +563,7 @@ footer h3 {
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  width: 25%;
+  width: 22%;
 }
 
 .footbar li {
@@ -1061,4 +1061,9 @@ All the dark mode stuff
   .footbar a:link {
     font-size: 10px;
   }
+
+  .fa-envelope {font-size: 30px}
+  .fa-linkedin {font-size: 30px}
+  .fa-github {font-size: 30px}
+  .fa-chess-rook {font-size: 30px}
 }
