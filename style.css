@@ -516,6 +516,7 @@ footer {
   margin-top: 50px;
   padding: 20px;
   width: 100%;
+  overflow: hidden;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -1018,7 +1019,7 @@ All the dark mode stuff
   }
 
   #profilepic {
-    width: 250px;
+    width: 200px;
   }
 
   #intro h1 {
