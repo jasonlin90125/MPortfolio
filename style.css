@@ -26,8 +26,8 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -485,7 +485,7 @@ nav button:hover, nav button:active {
 .w3-display-container:hover .w3-display-hover{display:block}
 span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 .w3-center{text-align:center!important}
-.w3-section{margin-top:0!important;margin-bottom:1.5%!important}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important}
 .w3-large{font-size:18px!important}
 .w3-text-black{color:rgba(0, 0, 0, 0.69420)!important}
 .w3-display-bottommiddle{position:absolute;left:50%;bottom:0;
@@ -596,33 +596,32 @@ footer h3 {
 /* Personal Library */
 #library {
   background-color: inherit;
-  margin-top: 80px;
+  margin-top: 5%;
   height: 100%;
-  width: 100%;
-  display: inline-block;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 
 #library h1 {
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 2%;
+  text-align: center;
   font-size: 45px;
   font-weight: normal;
   color: inherit;
 }
 
 .librarysection {
-  margin-top: 3%;
-  margin-left: 25%;
+  margin-top: 4%;
+  margin-bottom: 0;
   font-weight: bold;
   color: inherit;
 }
 
 .librarylist {
-  margin-left: 24%;
   margin-bottom: 3%;
   color: inherit;
   line-height: 1.2cm;
@@ -648,7 +647,7 @@ footer h3 {
 /* MPortfolio */
 #MPortfolio {
   background-color: inherit;
-  margin-top: 80px;
+  margin-top: 5%;
   height: 100%;
   width: 100%;
   display: inline-block;
@@ -682,7 +681,7 @@ footer h3 {
 /* Row */
 .rowcards {
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 1%;
   margin-bottom: 40px;
   width: 82%;
   display: flex;
@@ -1065,6 +1064,7 @@ All the dark mode stuff
 
   #testimonialslides {
     height: 120px;
+    width: 70%;
   }
 
   .testy p {
@@ -1087,4 +1087,28 @@ All the dark mode stuff
   .fa-linkedin {font-size: 30px}
   .fa-github {font-size: 30px}
   .fa-chess-rook {font-size: 30px}
+
+  /* Library */
+  #library {
+    width: 80%;
+  }
+
+  #library h1 {
+    margin-top: 5%;
+    font-size: 25px;
+  }
+
+  .librarysection {
+    font-size: 18px;
+  }
+
+  .librarylist li {
+    font-size: 10px;
+    line-height: 2em;
+  }
+
+  .fa-arrow-circle-left {
+    font-size: 40px;
+  }
+  
 }
