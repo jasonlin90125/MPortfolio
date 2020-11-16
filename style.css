@@ -514,7 +514,7 @@ footer {
   background-color: rgb(196, 218, 235);
   box-shadow: 2px 0 4px 0 rgba(0,0,0,0.2);
   margin-top: 50px;
-  padding: 20px;
+  padding: 30px 0px;
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
