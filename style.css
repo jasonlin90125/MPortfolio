@@ -362,7 +362,7 @@ nav button:hover, nav button:active {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  background-color: #5d7cb9d0;
+  background-color: #5d7cb9;
   display: flex;
   justify-content: center;
   align-items: center;
