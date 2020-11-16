@@ -121,14 +121,10 @@ nav button:hover, nav button:active {
   align-items: center;
 }
 
-#front {
-  padding-top: 55px;
-}
-
 #intro {
   background-color: transparent;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 10%;
   height: 100%;
   width: 100%;
   display: flex;
