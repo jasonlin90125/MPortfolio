@@ -1058,12 +1058,16 @@ All the dark mode stuff
     font-size: 25px;
   }
 
+  .footbar {
+    width: 50%;
+  }
+
   .footbar a:link {
     font-size: 10px;
   }
 
-  .fa-envelope {font-size: 20px}
-  .fa-linkedin {font-size: 20px}
-  .fa-github {font-size: 20px}
-  .fa-chess-rook {font-size: 20px}
+  .fa-envelope {font-size: 30px}
+  .fa-linkedin {font-size: 30px}
+  .fa-github {font-size: 30px}
+  .fa-chess-rook {font-size: 30px}
 }
