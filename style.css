@@ -514,8 +514,12 @@ span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 footer {
   background-color: rgb(196, 218, 235);
   box-shadow: 2px 0 4px 0 rgba(0,0,0,0.2);
+  margin: 0 auto;
   margin-top: 50px;
-  padding: 30px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
