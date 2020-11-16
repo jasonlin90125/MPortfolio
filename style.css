@@ -185,8 +185,8 @@ nav button:hover, nav button:active {
 
 .block h1 {
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.6%;
+  padding-bottom: 1.6%;
   color: inherit;
 }
 
@@ -438,7 +438,8 @@ nav button:hover, nav button:active {
 
 /* Testimonials */
 #testimonials {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   padding-top: 20px;
@@ -479,12 +480,12 @@ nav button:hover, nav button:active {
 }
 
 /* w3 CSS Stuff for Slides */
-.w3-content{margin-left:auto;margin-right:auto;max-width:980px}
+.w3-content{margin-left:auto;margin-right:auto;max-width:90%}
 .w3-display-container{position:relative}
 .w3-display-container:hover .w3-display-hover{display:block}
 span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
 .w3-center{text-align:center!important}
-.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.w3-section{margin-top:0!important;margin-bottom:1.5%!important}
 .w3-large{font-size:18px!important}
 .w3-text-black{color:rgba(0, 0, 0, 0.69420)!important}
 .w3-display-bottommiddle{position:absolute;left:50%;bottom:0;
@@ -1060,6 +1061,14 @@ All the dark mode stuff
 
   .backcard p {
     font-size: 6px;
+  }
+
+  #testimonialslides {
+    height: 120px;
+  }
+
+  .testy p {
+    font-size: 8px;
   }
 
   footer h1 {
