@@ -1058,6 +1058,10 @@ All the dark mode stuff
     line-height: 1.2em;
   }
 
+  .backcard p {
+    font-size: 6px;
+  }
+
   footer h1 {
     font-size: 25px;
   }
