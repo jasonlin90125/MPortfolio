@@ -593,7 +593,7 @@ footer h3 {
 /* Personal Library */
 #library {
   background-color: inherit;
-  margin-top: 10%;
+  margin-top: 9%;
   height: 100%;
   width: 50%;
   display: flex;
@@ -604,7 +604,6 @@ footer h3 {
 
 #library h1 {
   margin: 0 auto;
-  margin-top: 2%;
   text-align: center;
   font-size: 45px;
   font-weight: normal;
@@ -644,7 +643,7 @@ footer h3 {
 /* MPortfolio */
 #MPortfolio {
   background-color: inherit;
-  margin-top: 10%;
+  margin-top: 9%;
   height: 100%;
   width: 100%;
   display: flex;
