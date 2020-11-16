@@ -657,9 +657,7 @@ footer h3 {
 
 #MPortfolio h1 {
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   font-size: 45px;
   font-weight: normal;
   color: inherit;
@@ -682,7 +680,7 @@ footer h3 {
 .rowcards {
   margin: 0 auto;
   margin-top: 1%;
-  margin-bottom: 40px;
+  margin-bottom: 3%;
   width: 82%;
   display: flex;
   justify-content: center;
@@ -691,6 +689,8 @@ footer h3 {
 
 .mportcard {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   background-color:rgb(196, 218, 235);
   color: inherit;
   height: 375px;
@@ -707,6 +707,8 @@ footer h3 {
 
 .mportcard-blank {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
   background-color: transparent;
   color: none;
   height: 375px;
@@ -715,7 +717,8 @@ footer h3 {
 
 .mportcardtext {
   margin: 0 auto;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   height: 100%;
   width: 100%;
@@ -724,8 +727,8 @@ footer h3 {
 
 .mportcardtext h1 {
   margin: 0 auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   width: 90%;
   font-size: 20px!important;
   font-weight: bold;
@@ -734,8 +737,8 @@ footer h3 {
 
 .mportcardtext p {
   margin: 0 auto;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 4%;
+  padding-right: 4%;
   font-size: 12px;
   text-align: left;
   color: inherit;
@@ -751,18 +754,18 @@ footer h3 {
 }
 
 .mportcard ul {
+  margin: 0 auto;
   font-size: 12px;
   text-align: left;
-  padding-right: 25px;
 }
 
 .competency {
   margin: 0 auto;
-  margin-right: 25px;
+  margin-right: 4%;
   font-size: 12px;
   position: absolute;
-  bottom: 15px;
-  left: 25px;
+  bottom: 4%;
+  left: 4%;
   color: #000;
   text-align: left;
 }
@@ -992,7 +995,7 @@ All the dark mode stuff
 }
 
 /* Phone compatibility */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   header {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -1110,5 +1113,24 @@ All the dark mode stuff
   .fa-arrow-circle-left {
     font-size: 40px;
   }
-  
+
+  /* MPortfolio */
+  #MPortfolio h1 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .rowcards {
+    display: block;
+  }
+
+  .mportcard {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .mportcard:hover {
+    transform: scale(1.0);
+  }
 }
