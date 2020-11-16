@@ -181,6 +181,7 @@ nav button:hover, nav button:active {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 60px;
+  outline: none;
 }
 
 .block h1 {
