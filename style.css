@@ -593,7 +593,7 @@ footer h3 {
 /* Personal Library */
 #library {
   background-color: inherit;
-  margin-top: 5%;
+  margin-top: 10%;
   height: 100%;
   width: 50%;
   display: flex;
@@ -644,7 +644,7 @@ footer h3 {
 /* MPortfolio */
 #MPortfolio {
   background-color: inherit;
-  margin-top: 5%;
+  margin-top: 10%;
   height: 100%;
   width: 100%;
   display: flex;
@@ -1002,7 +1002,7 @@ All the dark mode stuff
   }
 
   #intro {
-    margin-top: 30px;
+    margin-top: 20%;
   }
 
   #branding a {
@@ -1027,6 +1027,10 @@ All the dark mode stuff
 
   .block h1 {
     font-size: 26px;
+  }
+
+  .fa-angle-double-down {
+    font-size: 0px;
   }
 
   #aboutme h2 {
@@ -1094,6 +1098,7 @@ All the dark mode stuff
   /* Library */
   #library {
     width: 80%;
+    margin-top: 20%;
   }
 
   #library h1 {
@@ -1115,6 +1120,10 @@ All the dark mode stuff
   }
 
   /* MPortfolio */
+  #MPortfolio {
+    margin-top: 20%;
+  }
+
   #MPortfolio h1 {
     font-size: 25px;
   }
