@@ -1,6 +1,7 @@
 html {
   margin: 0 auto;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  overflow: scroll;
+  overflow-x: hidden;
   background-color: aliceblue;
   color: rgba(0, 0, 0, 0.69420); 
   margin: 0 auto;
