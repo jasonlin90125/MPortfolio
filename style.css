@@ -390,6 +390,10 @@ nav button:hover, nav button:active {
   max-width: 50%;
 }
 
+#novartis_logo {
+  max-width: 70%;
+}
+
 .role {
   margin: 0 auto;
   width: 35%;
