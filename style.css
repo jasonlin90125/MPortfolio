@@ -644,6 +644,39 @@ footer h3 {
   font-size: 80px;
 }
 
+/* Personal Statement */
+#statement {
+  background-color: inherit;
+  margin-top: 9%;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+#statement h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 45px;
+  font-weight: normal;
+  color: inherit;
+}
+
+#statement h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#statement h1 a:visited {
+  color: inherit;
+}
+
+#statement h1 a:hover, #statement h1 a:active {
+  opacity: 0.7;
+}
+
 /* MPortfolio */
 #MPortfolio {
   background-color: inherit;
